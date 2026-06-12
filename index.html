@@ -2,11 +2,23 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0; url=https://alex803161.github.io/book-finder/">
-    <title>BookVista — уютная книжная полка</title>
-    <script>window.location.href = "https://alex803161.github.io/book-finder/";</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мои проекты</title>
+    <style>
+        body { font-family: system-ui, sans-serif; background: #f3f4f6; display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0; }
+        .container { text-align: center; background: white; padding: 40px; border-radius: 24px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+        h1 { margin-bottom: 24px; color: #0f172a; }
+        .btn { display: inline-block; margin: 10px; padding: 14px 28px; background: #0047cc; color: white; text-decoration: none; border-radius: 40px; font-weight: 600; transition: background 0.2s; }
+        .btn:hover { background: #0039a6; }
+        .btn-bookvista { background: #059669; }
+        .btn-bookvista:hover { background: #047857; }
+    </style>
 </head>
 <body>
-    <p>Перенаправление на <a href="https://alex803161.github.io/book-finder/">BookVista</a>...</p>
+    <div class="container">
+        <h1>Выберите проект</h1>
+        <a href="/vacancy-aggregator/" class="btn">🔍 ВКАНСА — поиск работы</a>
+        <a href="/book-finder/" class="btn btn-bookvista">📚 BookVista — книжная полка</a>
+    </div>
 </body>
 </html>
